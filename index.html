@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do budget kinda somt'n</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Budget <span id="total"></span></h1>
+
+        <div class="inputs">
+            <input type="number" placeholder="enter amount" id="amount" required>
+
+            <input type="text" placeholder="enter item" id="item" required>
+
+            <div class="radios"> 
+                <label for="need">is it needed</label>
+                <input type="radio" id="needTrue" name="need" checked>
+                <input type="radio" id="needFalse" name="need">
+            </div>
+        </div>
+
+        <button id="addList">submit</button>
+    </form>
+
+    <ul class="list-container" id="lists">
+
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- NEXT I WILL ADD BUDGET TO THE H1, FORM A KIND OF COLUMN WITH ROWS OF AMOUNT OF NOT NEEDED, TOTAL AMOUNT OR nET BUDGET -->

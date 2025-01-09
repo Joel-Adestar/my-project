@@ -1,0 +1,102 @@
+.list-item {
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.price {
+    color: green;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form .radios {
+    margin-bottom: 10px;
+}
+
+form .radios label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+form .radios input[type="radio"] {
+    margin-right: 5px;
+}
+
+button#addList {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button#addList:hover {
+    background-color: #0056b3;
+}
+
+ul.list-container {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+ul.list-container li.list-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.list-container li.list-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul.list-container li.list-item button:hover {
+    background-color: #c82333;
+}
